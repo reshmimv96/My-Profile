@@ -49,7 +49,7 @@ function Table({ employeeData }: TableProps) {
             subject: data.subject,
             message: data.message
         }
-        axios.put(`http://localhost:5000/api/update/${editId}`, { formData })
+        axios.put(`https://profile-backend-o6g4.onrender.com/api/update/${editId}`, { formData })
         .then((response) => {
             // alert(data.message);
             setData((prevData) => {
@@ -87,7 +87,7 @@ function Table({ employeeData }: TableProps) {
         console.log('Deleting ID:', id); // Debugging
         if (window.confirm('Are you sure you want to delete this item?')) {
           axios
-            .delete(`http://localhost:5000/api/delete/${id}`)
+            .delete(`https://profile-backend-o6g4.onrender.com/api/delete/${id}`)
             .then((response) => {
               console.log('Delete Response:', response.data); // Debugging
       

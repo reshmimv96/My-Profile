@@ -31,7 +31,7 @@ function Contact() {
             subject: data.subject,
             message: data.message
         }
-        axios.post('http://localhost:5000/api/sendmail', { formData })
+        axios.post('https://profile-backend-o6g4.onrender.com/api/sendmail', { formData })
             .then(({data}) => {
                 alert(data.message);
                 reset()
@@ -41,7 +41,7 @@ function Contact() {
             });
       }
       useEffect(()=>{
-        axios.get('http://localhost:5000/api/getmail')
+        axios.get('https://profile-backend-o6g4.onrender.com/api/getmail')
             .then(({data}) => {
                 setEmployee(data);
             })
