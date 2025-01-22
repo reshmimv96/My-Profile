@@ -1,0 +1,112 @@
+.navbarWrapper{
+    background-color: rgb(9, 9, 23);
+    padding: 0 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.navbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+}
+.navbarItem{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+
+}
+.navbarItem li a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: unset;
+    transition: 0.6s ease-in-out;
+}
+.navbarItem li .navbarProfileBtn{
+    display: none;
+}
+.navbarItem li a:hover{
+    color: rgb(133, 76, 230);
+}
+.navbarProfileBtn{
+    border: 1px solid rgb(133, 76, 230);
+    color: rgb(133, 76, 230);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.6s ease-in-out;
+    background-color: transparent;
+    float: right;
+    
+}
+.navbarProfileBtn:hover{
+    background-color: rgb(133, 76, 230);
+    color: #fff;
+}
+.navbarToggler{
+    display: none;
+}
+.navbarItemMobile{
+    display: none;
+}
+@media(max-width: 768px){
+    .navbarToggler{
+        display: block;
+        float: right;
+        background-color: transparent;
+    border: unset;
+    }
+    img{
+        width: 20px;
+    }
+    .navbarProfileBtn{
+        display: none;
+    }
+    .navbarItem{
+        display: flex ;
+            flex-direction: column;
+            align-items: start;
+            gap: 16px;
+            list-style: none;
+            width: 100%;
+            padding: 12px 40px 24px;
+            background: rgba(25, 25, 36, 0.6);
+            position: absolute;
+            top: 80px;
+            right: 0px;
+            transition: 0.6s ease-in-out;
+            transform: translateY(0px);
+            border-radius: 0px 0px 20px 20px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+            opacity: 1;
+            z-index: 1000;
+    }
+    .navbarItem li .navbarProfileBtn{
+        display: block;
+        border: 1px solid rgb(133, 76, 230);
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.6s ease-in-out;
+    background-color: rgb(133, 76, 230);;
+    }
+    .navbarItemDesktop{
+        display: none;
+    }
+  
+}

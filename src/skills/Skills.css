@@ -1,0 +1,62 @@
+.skillsWrapper{
+    background-color: rgb(9, 9, 23);
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.sectionHeader h2{
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(242, 243, 244);
+}
+.sectionHeader p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(177, 178, 179);
+}
+.skillCard{
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(17, 25, 40, 0.83);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    margin: auto;
+    padding: 18px 36px;
+    margin-top: 50px;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.skillTitle h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(177, 178, 179);
+}
+.skillList{
+    display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 20px;
+}
+.skill{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(242, 243, 244, 0.5);
+    border: 1px solid rgba(242, 243, 244, 0.5);
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.skill img{
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,67 @@
+.contactWrapper{
+    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+    background-color: #000;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 98%, 0px 100%);
+}
+
+.sectionHeader h2{
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(242, 243, 244);
+}
+.sectionHeader p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(177, 178, 179);
+}
+
+form{
+    width: 95%;
+    max-width: 600px;
+    display: flex
+;
+    flex-direction: column;
+    background-color: rgba(17, 25, 40, 0.83);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: rgba(23, 92, 230, 0.1) 0px 4px 24px;
+    margin-top: 28px;
+    gap: 12px;
+}
+form p{
+    font-size: 28px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: rgb(242, 243, 244);
+    text-align: center;
+}
+form input,form textarea{
+    flex: 1 1 0%;
+    background-color: transparent;
+    border: 1px solid rgba(177, 178, 179, 0.314);
+    outline: none;
+    font-size: 18px;
+    color: rgb(242, 243, 244);
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+.sendBtn{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+    padding: 13px 16px;
+    margin-top: 2px;
+    border-radius: 12px;
+    border: none;
+    color: rgb(242, 243, 244);
+    font-size: 18px;
+    font-weight: 600;
+}
+.required{
+    color: red;
+}

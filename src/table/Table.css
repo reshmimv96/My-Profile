@@ -1,0 +1,22 @@
+.tableWrapper{
+    margin-bottom: 2rem;
+}
+table{
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+}
+form{
+    width: 100%;
+    overflow: auto;
+
+}
+ form input{
+    background-color: transparent;
+    border: 1px solid rgba(177, 178, 179, 0.314);
+    outline: none;
+    font-size: 14px;
+    color: rgb(242, 243, 244);
+    border-radius: 12px;
+    padding: 5px;
+}

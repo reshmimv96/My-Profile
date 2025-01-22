@@ -1,0 +1,84 @@
+.aboutWrapper{
+    background-color: rgb(9, 9, 23);
+}
+.aboutContent h3{
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(242, 243, 244);
+    line-height: 68px;
+}
+.aboutContent h5{
+    font-size: 32px;
+    color: rgb(242, 243, 244);
+    line-height: 68px;
+}
+
+
+.typwritterWrapper{ 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+  .aboutImage{
+    text-align: center;
+  }
+  .aboutImage img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid rgb(133, 76, 230);
+  }
+  .aboutContent p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 42px;
+    color: rgba(242, 243, 244, 0.584);
+  }
+  .aboutContent .checkResumeBtn{
+    appearance: button;
+    text-decoration: none;
+    width: 95%;
+    max-width: 300px;
+    text-align: center;
+    padding: 16px 0px;
+    background: -webkit-linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+    box-shadow: rgb(31, 38, 52) 20px 20px 60px, rgb(31, 38, 52) -20px -20px 60px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+  }
+  .aboutContent .checkResumeBtn:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+  }
+
+
+  @media(max-width: 768px){
+    .aboutContentWrapper{
+      order: 2;
+    }
+    .aboutContent{
+      text-align: center;
+    }
+    .aboutContent h3{
+      font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 8px;
+    }
+    .aboutContent h5{
+      font-size: 22px;
+      line-height: 48px;
+      margin-bottom: 16px;
+    }
+    .aboutContent p{
+      font-size: 16px;
+      line-height: 32px;
+    }
+    .container{
+      max-width: 100%;
+    }
+  }
