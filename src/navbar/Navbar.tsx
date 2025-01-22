@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import menuBar from "../assets/menu.svg";
 import './Navbar.css'
 

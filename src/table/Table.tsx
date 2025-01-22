@@ -34,7 +34,6 @@ function Table({ employeeData }: TableProps) {
             register,
             handleSubmit,
             reset,
-            formState: { errors },
     } = useForm<Inputs>()
     
     useEffect(()=>{
