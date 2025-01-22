@@ -17,7 +17,7 @@ function About() {
                        <h5>I am a</h5>
                             <Typewritter text="Software Engineer"  />
                        </div>
-                        <p>I'm a highly motivated and versatile individual with a strong aptitude for problem-solving and a deep commitment to continuous development. I enjoy tackling complex challenges, analyzing data, and developing effective solutions. I'm a firm believer in lifelong learning and actively pursue opportunities to expand my knowledge and skillset.</p>
+                        <p>I'm a highly motivated and versatile individual with a strong aptitude for problem-solving and a deep commitment to continuous development. </p>
                         <button className='checkResumeBtn'>Check Resume</button>
                     </div>
                 </div>
